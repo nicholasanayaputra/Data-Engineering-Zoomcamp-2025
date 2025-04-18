@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: finance_economics
+    database: finance__economics
+    schema: cybersyn
+    tables:
+      - name: bureau_of_labor_statistics_price_timeseries
+      - name: bureau_of_labor_statistics_price_attributes
