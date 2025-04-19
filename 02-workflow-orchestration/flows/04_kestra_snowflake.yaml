@@ -1,0 +1,14 @@
+id: 04_kestra_snowflake
+namespace: zoomcamp
+
+tasks:
+  - id: snowflake-query
+    type: io.kestra.plugin.jdbc.snowflake.Query
+    url: jdbc:snowflake://aa59243.ap-southeast-3.aws.snowflakecomputing.com/?warehouse=COMPUTE_WH&db=kestra_db&schema=kestra_schema
+    username: NICHOLAS182
+    password: Akujanji123456
+    sql: |
+      CREATE OR REPLACE TABLE test_table (
+        id INT,
+        name STRING
+      );
