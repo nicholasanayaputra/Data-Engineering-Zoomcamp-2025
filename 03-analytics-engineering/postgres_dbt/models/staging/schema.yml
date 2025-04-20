@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: yellow_taxi
+    schema: dbt-schema 
+    tables:
+      - name: yellow_tripdata
+
+  - name: green_taxi
+    schema: dbt-schema 
+    tables:
+      - name: green_tripdata
