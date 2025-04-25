@@ -1,0 +1,10 @@
+.vscode/
+
+.ipynb_checkpoints/
+ny_taxi_postgres_data/
+*.csv
+
+metabase.jar
+target/
+dbt_packages/
+logs/
