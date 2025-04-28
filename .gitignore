@@ -1,12 +1,27 @@
-.vscode/
+# Virtual environment
+venv-dbt/
+venv/
+.venv/
 
 .ipynb_checkpoints/
 ny_taxi_postgres_data/
 *.csv
 
-metabase.jar
+# DBT artifacts
+logs/
 target/
 dbt_packages/
-logs/
 
 plugins/
+
+# Compressed files
+*.gz
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Metabase JAR file (jika tidak perlu dibackup ke repo)
+*.jar
