@@ -8,3 +8,5 @@ metabase.jar
 target/
 dbt_packages/
 logs/
+
+plugins/
