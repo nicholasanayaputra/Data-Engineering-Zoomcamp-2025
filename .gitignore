@@ -25,3 +25,16 @@ __pycache__/
 
 # Metabase JAR file (jika tidak perlu dibackup ke repo)
 *.jar
+
+fhvhv-20250429T043421Z-001.zip
+spark-3.3.2-bin-hadoop3/
+venv-spark/
+hadoop.dll
+hadoop.lib
+hadoop.exp
+hadoop.pdb
+libwinutils.lib
+spark-3.3.2-bin-hadoop3.tgz
+winutils.exe
+winutils.pdb
+data/
