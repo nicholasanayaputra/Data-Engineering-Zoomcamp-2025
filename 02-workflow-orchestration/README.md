@@ -12,7 +12,7 @@ While the course uses **Google Cloud BigQuery** as the data warehouse, I’ve op
 ### 1. **Introduction to Workflow Orchestration**
 In this section, we explored the concept of workflow orchestration and its importance. Kestra simplifies the building of reliable workflows using just a few lines of YAML, and this introductory material set the stage for the rest of the project.
 
-![Workflow Orchestration Concept](./images/kestra.jpg)
+<img src="./images/kestra.jpg" alt="Workflow Orchestration Concept" width="500" />
 
 
 ---
