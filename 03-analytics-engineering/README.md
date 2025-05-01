@@ -33,8 +33,7 @@ All data was ingested and cleaned in Week 3 pipelines and loaded into PostgreSQL
 ## Visualizations (via Metabase)
 
 ### 1. **Top Drop-off Locations**
-![Trip Count by Service Type]("https://github.com/user-attachments/assets/cce21f0f-2a11-48da-9b7e-9c0a5dc62948", width="500")
-
+<img src="https://github.com/user-attachments/assets/cce21f0f-2a11-48da-9b7e-9c0a5dc62948" width="500" />
 **Conclusion:**  
 This donut chart visualizes the distribution of taxi trips in New York City for January 2019 based on the service type — Yellow and Green.
 
@@ -47,8 +46,7 @@ This shows that Yellow taxis were far more commonly used during this time period
 ---
 
 ### 2. **Average Trip Distance by Service Type**
-![Count by Dropoff Locationid]("https://github.com/user-attachments/assets/07764b77-8305-4d3c-b5c6-4f5ebc43ac7f", width="500")
-
+<img src="https://github.com/user-attachments/assets/07764b77-8305-4d3c-b5c6-4f5ebc43ac7f" width="500" />
 ## 🗺️ Drop-off Distribution Analysis
 
 This analysis segments drop-off location IDs into bins of 50 and identifies the most common zones and boroughs within each range.
@@ -72,8 +70,7 @@ This analysis segments drop-off location IDs into bins of 50 and identifies the 
 ---
 
 ### 3. **Total Revenue by Borough**
-![Count by Revenue Month: Day of week]("https://github.com/user-attachments/assets/90f04701-0701-41e6-948b-072b0ea6887e", width="500")
-
+<img src="https://github.com/user-attachments/assets/90f04701-0701-41e6-948b-072b0ea6887e" width="500" />
 ## 🔍 Summary
 
 - **Tuesday** has the highest number of trips (over 500).
