@@ -1,11 +1,5 @@
 # NYC Taxi Trips Analytics – dbt + Postgres + Metabase
 
-## 🌐 Live Dashboard Access
-
-You can explore the interactive dashboard via the following link:
-
-👉 [View Dashboard](http://localhost:3000/public/dashboard/45f2c2d8-beee-412b-9d8e-7113e5c71dda)
-
 ## Overview
 
 This project is part of the Data Engineering Zoomcamp, Module 4: Analytics Engineering.  
