@@ -24,7 +24,6 @@ To begin, I created a simple **PostgreSQL** database for the exercises. This ini
 #### 2.1 **Create an ETL Pipeline with PostgreSQL in Kestra**
 In this task, I built a basic ETL pipeline using **Kestra** and a **PostgreSQL** database. The pipeline extracts data, performs transformations, and loads it into PostgreSQL for further processing.
 
-**Video Reference**: 
 <img src="./images/postgres.png" alt="Workflow Orchestration Concept" width="500" />
 
 #### 2.2 **Manage Scheduling and Backfills using PostgreSQL in Kestra**
