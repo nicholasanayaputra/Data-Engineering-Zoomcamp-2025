@@ -25,44 +25,36 @@ To begin, I created a simple **PostgreSQL** database for the exercises. This ini
 In this task, I built a basic ETL pipeline using **Kestra** and a **PostgreSQL** database. The pipeline extracts data, performs transformations, and loads it into PostgreSQL for further processing.
 
 **Video Reference**: 
-<img src="./images/postgres 2.png.jpg" alt="Workflow Orchestration Concept" width="500" />
+<img src="./images/postgres 2.png" alt="Workflow Orchestration Concept" width="500" />
 
 #### 2.2 **Manage Scheduling and Backfills using PostgreSQL in Kestra**
 Next, I focused on scheduling the pipeline to run daily and backfilling historical data. For this exercise, I backfilled only the **Green Taxi dataset** from 2019.
 ---
 
-### 3. **Introduction to Workflow Orchestration**
-In this section, we explored the concept of workflow orchestration and its importance. Kestra simplifies the building of reliable workflows using just a few lines of YAML, and this introductory material set the stage for the rest of the project.
-
-<img src="./images/kestra.jpg" alt="Workflow Orchestration Concept" width="500" />
-
-
----
-
-### 4. **Hands-On Coding Project: Building Data Pipelines with Kestra**
+### 3. **Hands-On Coding Project: Building Data Pipelines with Kestra**
 The hands-on part of this module focused on building **ETL pipelines** for the Yellow and Green Taxi data from NYC's **Taxi and Limousine Commission (TLC)**. 
 
 While the course uses **BigQuery** as a data warehouse, I used **Snowflake** instead to load and manage the taxi data.
 
-<img src="./images/snowflake 2.png.jpg" alt="Workflow Orchestration Concept" width="500" />
+<img src="./images/snowflake 2.png" alt="Workflow Orchestration Concept" width="500" />
 
-#### 4.1 **Local DB: Load Taxi Data to Snowflake**
+#### 3.1 **Local DB: Load Taxi Data to Snowflake**
 In this task, I extracted data from CSV files and loaded it into **Snowflake**. The steps were similar to the ones outlined in the course for BigQuery, but adapted for Snowflake's cloud-based architecture.
 
-<img src="./images/snowflake 3.png.jpg" alt="Workflow Orchestration Concept" width="500" />
+<img src="./images/snowflake 3.png" alt="Workflow Orchestration Concept" width="500" />
 
-#### 4.2 **Scheduling and Backfilling Data**
+#### 3.2 **Scheduling and Backfilling Data**
 This step involved scheduling the data pipeline to run daily and exploring how to backfill historical data. For this exercise, I backfilled only the **Green Taxi dataset** from 2019.
 
-#### 4.3 **Orchestrating dbt Models (Optional)**
+#### 3.3 **Orchestrating dbt Models (Optional)**
 After loading the raw data into Snowflake, I used **dbt** to transform and build meaningful insights from the data. While dbt wasn't a primary focus of the course, I integrated it as an optional step to showcase how Kestra can manage dbt transformations.
 
 ---
 
-### 5. **Transitioning to Google Cloud Platform (GCP)**
+### 4. **Transitioning to Google Cloud Platform (GCP)**
 Though the course uses **GCP** (Google Cloud Platform) for cloud-based orchestration, I adapted the lessons to **Snowflake**. This step explored the orchestration of workflows on a cloud platform.
 
-<img src="./images/snowflake 1.png.jpg" alt="Workflow Orchestration Concept" width="500" />
+<img src="./images/snowflake 1.png" alt="Workflow Orchestration Concept" width="500" />
 
 ---
 
