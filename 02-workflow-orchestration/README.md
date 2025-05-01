@@ -25,7 +25,7 @@ To begin, I created a simple **PostgreSQL** database for the exercises. This ini
 In this task, I built a basic ETL pipeline using **Kestra** and a **PostgreSQL** database. The pipeline extracts data, performs transformations, and loads it into PostgreSQL for further processing.
 
 **Video Reference**: 
-<img src="./images/postgres 2.png" alt="Workflow Orchestration Concept" width="500" />
+<img src="./images/postgres.png" alt="Workflow Orchestration Concept" width="500" />
 
 #### 2.2 **Manage Scheduling and Backfills using PostgreSQL in Kestra**
 Next, I focused on scheduling the pipeline to run daily and backfilling historical data. For this exercise, I backfilled only the **Green Taxi dataset** from 2019.
@@ -36,7 +36,7 @@ The hands-on part of this module focused on building **ETL pipelines** for the Y
 
 While the course uses **BigQuery** as a data warehouse, I used **Snowflake** instead to load and manage the taxi data.
 
-<img src="./images/snowflake 2.png" alt="Workflow Orchestration Concept" width="500" />
+<img src="./images/gantt.png.png" alt="Workflow Orchestration Concept" width="500" />
 
 #### 3.1 **Local DB: Load Taxi Data to Snowflake**
 In this task, I extracted data from CSV files and loaded it into **Snowflake**. The steps were similar to the ones outlined in the course for BigQuery, but adapted for Snowflake's cloud-based architecture.
