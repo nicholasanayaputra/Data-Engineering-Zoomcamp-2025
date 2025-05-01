@@ -35,12 +35,12 @@ The hands-on part of this module focused on building **ETL pipelines** for the Y
 
 While the course uses **BigQuery** as a data warehouse, I used **Snowflake** instead to load and manage the taxi data.
 
-<img src="./images/gantt.png.png" alt="Workflow Orchestration Concept" width="500" />
+<img src="./images/gantt.png" alt="Workflow Orchestration Concept" width="500" />
 
 #### 3.1 **Local DB: Load Taxi Data to Snowflake**
 In this task, I extracted data from CSV files and loaded it into **Snowflake**. The steps were similar to the ones outlined in the course for BigQuery, but adapted for Snowflake's cloud-based architecture.
 
-<img src="./images/snowflake 3.png" alt="Workflow Orchestration Concept" width="500" />
+<img src="./images/snowflake3.png" alt="Workflow Orchestration Concept" width="500" />
 
 #### 3.2 **Scheduling and Backfilling Data**
 This step involved scheduling the data pipeline to run daily and exploring how to backfill historical data. For this exercise, I backfilled only the **Green Taxi dataset** from 2019.
@@ -53,7 +53,7 @@ After loading the raw data into Snowflake, I used **dbt** to transform and build
 ### 4. **Transitioning to Google Cloud Platform (GCP)**
 Though the course uses **GCP** (Google Cloud Platform) for cloud-based orchestration, I adapted the lessons to **Snowflake**. This step explored the orchestration of workflows on a cloud platform.
 
-<img src="./images/snowflake 1.png" alt="Workflow Orchestration Concept" width="500" />
+<img src="./images/snowflake1.png" alt="Workflow Orchestration Concept" width="500" />
 
 ---
 
