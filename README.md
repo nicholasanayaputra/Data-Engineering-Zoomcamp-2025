@@ -20,6 +20,8 @@ Welcome to the **Data Engineering Bootcamp**! This repository contains learning 
 - Introduction to **Snowflake**
 - Partitioning, clustering, and performance tuning
 - Built-in ML capabilities in Snowflake
+- The Green Taxi table contains 7,778,101 records.
+- The Yellow Taxi table contains 109,047,518 records.
 
 ### 🏗️ Module 3: Analytics Engineering
 - **dbt** with PostgreSQL & Snowflake
