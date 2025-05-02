@@ -33,7 +33,7 @@ All data was ingested and cleaned in Week 3 pipelines and loaded into PostgreSQL
 ## Visualizations (via Metabase)
 
 ### 1. **Top Drop-off Locations**
-<img src="https://github.com/user-attachments/assets/cce21f0f-2a11-48da-9b7e-9c0a5dc62948" width="500" />
+<img src="https://github.com/user-attachments/assets/fd13a27e-e5c2-4a77-bc97-1928d5aa43da" width="500" />
 
 **Conclusion:**  
 This donut chart visualizes the distribution of taxi trips in New York City for January 2019 based on the service type — Yellow and Green.
