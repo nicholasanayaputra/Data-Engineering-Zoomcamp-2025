@@ -16,17 +16,17 @@ Welcome to the **Data Engineering Bootcamp**! This repository contains learning 
 - Building workflows with **Kestra**
 - 💻 Homework included
 
-### 🧠 Module 3: Data Warehousing
+### 🧠 Module 2.1: Data Warehousing
 - Introduction to **Snowflake**
 - Partitioning, clustering, and performance tuning
 - Built-in ML capabilities in Snowflake
 
-### 🏗️ Module 4: Analytics Engineering
+### 🏗️ Module 3: Analytics Engineering
 - **dbt** with PostgreSQL & Snowflake
 - Testing, documentation, and deployment
 - Interactive dashboards with **Metabase**
 
-### 🔥 Module 5: Batch Processing
+### 🔥 Module 4: Batch Processing
 - Introduction to **Apache Spark**
 - Working with DataFrames and SQL
 - Deep dive into GroupBy and Joins internals
