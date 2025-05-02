@@ -36,11 +36,12 @@ All data was ingested and cleaned in Week 3 pipelines and loaded into PostgreSQL
 <img src="https://github.com/user-attachments/assets/fd13a27e-e5c2-4a77-bc97-1928d5aa43da" width="500" />
 
 **Conclusion:**  
-This donut chart visualizes the distribution of taxi trips in New York City for January 2019 based on the service type — Yellow and Green.
+This donut chart visualizes the distribution of taxi trips in New York City, showing that Yellow taxis accounted for the majority of trips (86.5%), while Green taxis made up only 13.5%, with a total of 4.1 million trips.
 
-- The Yellow taxi service accounts for a significant majority of the trips, making up 86.5% of the total, with over 4 million trips.
-
-- The Green taxi service only contributes to 13.5% of the total trips.
+- The transportation service has generated a total revenue of $63,956,015 from 6,201,387 customers.
+- Most transactions occur on Tuesday, indicating a peak in demand on that day.
+- The majority of trips (86.5%) are serviced by yellow taxis, with a total of 4.1 million trips.
+- Credit card is the most preferred payment method, followed by cash.
 
 This shows that Yellow taxis were far more commonly used during this time period, which may reflect factors such as availability, service area coverage, or customer preference.
 
